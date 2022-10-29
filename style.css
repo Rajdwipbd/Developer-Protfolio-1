@@ -1,0 +1,31 @@
+
+.top{
+    width: 90%;
+    display: flex;
+    
+}
+.top div{
+    width: 50%;
+}
+.item1{
+    margin-left: 15%;
+}
+.item1 h1{
+    font-size: 40px;
+}
+.Rajdwip{
+    color: rgb(218, 119, 61);
+}
+.hireMe{
+    background-image: linear-gradient(rgb(241, 105, 105),khaki);
+    padding: 8px 19px;
+    border-radius: 4px;
+}
+.imageDiv1{
+    display: flex;
+    margin-left: 10%;
+}
+
+img{
+    width: 80%;
+}
