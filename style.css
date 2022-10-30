@@ -1,31 +1,64 @@
+.main {
+    font-family: 'Poppins', sans-serif;
 
-.top{
-    width: 90%;
-    display: flex;
-    
 }
-.top div{
+
+
+
+.top {
+
+    margin: auto;
+    display: flex;
+    background-image: url(./images/top-banner.png);
+
+
+}
+
+.common div {
     width: 50%;
 }
-.item1{
-    margin-left: 15%;
+
+.item1 {
+    margin-left: 10%;
+
 }
-.item1 h1{
+
+.item1 h1 {
     font-size: 40px;
 }
-.Rajdwip{
+
+/* .item1 p{
+    font-weight: lighter;
+} */
+.Rajdwip {
     color: rgb(218, 119, 61);
+    font-size: 50px;
 }
-.hireMe{
-    background-image: linear-gradient(rgb(241, 105, 105),khaki);
+
+.hireMe {
+    background-image: linear-gradient(rgb(241, 105, 105), khaki);
     padding: 8px 19px;
     border-radius: 4px;
 }
-.imageDiv1{
+
+.imageDiv1 {
     display: flex;
-    margin-left: 10%;
+    margin-left: 4%;
+    height: auto;
+    background-image: url(./images/);
 }
 
-img{
+img {
+    width: 100%;
+}
+
+.top2 {
     width: 80%;
+    margin: auto;
+    display: flex;
+}
+
+.item2 {
+    margin-left: 20px;
+    padding-left: 20px;
 }
