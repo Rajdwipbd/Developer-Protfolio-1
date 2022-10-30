@@ -1,5 +1,6 @@
 .main {
     font-family: 'Poppins', sans-serif;
+    background-image: linear-gradient(rgba(210, 234, 241, 0.192), rgb(226, 192, 192));
 
 }
 
@@ -9,7 +10,9 @@
 
     margin: auto;
     display: flex;
-    background-image: url(./images/top-banner.png);
+    width: 80%;
+    margin: auto;
+
 
 
 }
@@ -18,10 +21,7 @@
     width: 50%;
 }
 
-.item1 {
-    margin-left: 10%;
-
-}
+.item1 {}
 
 .item1 h1 {
     font-size: 40px;
@@ -45,7 +45,7 @@
     display: flex;
     margin-left: 4%;
     height: auto;
-    background-image: url(./images/);
+
 }
 
 img {
@@ -61,4 +61,34 @@ img {
 .item2 {
     margin-left: 20px;
     padding-left: 20px;
+}
+
+.cards {
+    display: flex;
+    gap: 20px;
+    width: 80%;
+    margin: auto;
+
+}
+
+.cards .card1 {
+    background-color: aliceblue;
+    padding: 15px;
+    border-left: 7px solid rgb(212, 126, 110);
+}
+
+.cards .card2 {
+    background-color: aliceblue;
+    padding: 15px;
+    border-left: 7px solid rgb(128, 98, 209);
+
+}
+
+.subHead {
+    color: coral;
+}
+
+footer {
+    text-align: center;
+
 }
